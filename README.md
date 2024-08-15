@@ -24,8 +24,6 @@ To build and run the Grades application from source, follow these steps:
      - [Qt Documentation for Windows](https://doc.qt.io/qt-5/windows-deployment.html)
      - [Qt Documentation for macOS](https://doc.qt.io/qt-5/macos-deployment.html)
      - [Qt Documentation for Linux](https://doc.qt.io/qt-5/linux-deployment.html)
-     - [Qt Documentation for Android](https://doc.qt.io/qt-5/android-deployment.html)
-     - [Qt Documentation for iOS](https://doc.qt.io/qt-5/ios-deployment.html)
 
 3. **Configure and Build:**
    - Create a build directory and navigate into it:
@@ -35,11 +33,11 @@ To build and run the Grades application from source, follow these steps:
      ```
    - Run `qmake` to generate the Makefile from the `.pro` file:
      ```bash
-     qmake ..
+     qmake ../src/grades.pro
      ```
-   - Compile the application using `make` (or `mingw32-make` on Windows):
+   - Compile the application using `nmake` for MSVC (or `mingw32-make` for MinGW):
      ```bash
-     make
+     nmake
      ```
 
 4. **Run Your Application:**
