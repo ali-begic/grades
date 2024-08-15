@@ -67,11 +67,11 @@ Thank you for your interest in the Grades application!
 3. **Navigate to the Build Directory:**
    - Use the `cd` command to navigate to the directory where your executable is located. For example:
      ```
-     cd path/to/your/build/directory
+     cd path/to/your/build/release
      ```
 
 4. **Run `windeployqt`:**
-   - Execute the following command, replacing `grades.exe` with your actual executable name:
+   - Execute the following command:
      ```
      windeployqt grades.exe
      ```
