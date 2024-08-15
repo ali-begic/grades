@@ -4,37 +4,55 @@ Grades is a powerful and user-friendly application designed for managing school 
 
 ## Building the Qt Application from Source
 
+To build and run the Grades application from source, follow these steps:
+
 1. **Clone the Repository:**
-   - First, ensure you have Git installed on your system.
-   - Open your terminal or command prompt and navigate to the directory where you want to clone your repository.
-   - Run the following command to clone your repository:
+   - Ensure you have Git installed on your system.
+   - Open your terminal or command prompt and navigate to the directory where you want to clone the repository.
+   - Run the following command:
      ```bash
      git clone https://github.com/ali-begic/grades
      ```
+   - Navigate into the cloned directory:
+     ```bash
+     cd grades
+     ```
 
 2. **Install Qt Dependencies:**
-   - Before building your application, make sure you have the necessary dependencies installed. These include Qt libraries, compilers, and build tools.
+   - Ensure you have the necessary Qt libraries, compilers, and build tools installed. 
    - Refer to the official Qt documentation for platform-specific instructions:
-     - Building Qt Sources for Windows
-     - Building Qt Sources for macOS
-     - Building Qt Sources for Linux/X11
-     - Building Qt Sources for Android
-     - Building Qt Sources for iOS
+     - [Qt Documentation for Windows](https://doc.qt.io/qt-5/windows-deployment.html)
+     - [Qt Documentation for macOS](https://doc.qt.io/qt-5/macos-deployment.html)
+     - [Qt Documentation for Linux](https://doc.qt.io/qt-5/linux-deployment.html)
+     - [Qt Documentation for Android](https://doc.qt.io/qt-5/android-deployment.html)
+     - [Qt Documentation for iOS](https://doc.qt.io/qt-5/ios-deployment.html)
 
 3. **Configure and Build:**
-   - Once dependencies are set up, navigate to your cloned repository directory.
-   - Run the following commands to configure and build your application:
+   - Create a build directory and navigate into it:
      ```bash
      mkdir build
      cd build
+     ```
+   - Run `qmake` to generate the Makefile from the `.pro` file:
+     ```bash
      qmake ..
+     ```
+   - Compile the application using `make` (or `mingw32-make` on Windows):
+     ```bash
      make
      ```
-   - Adjust the `qmake` command if your project uses a specific `.pro` file.
 
 4. **Run Your Application:**
-   - After successful compilation, you'll find the executable in the `build` directory.
-   - Run your application using:
+   - After a successful build, the executable will be located in the `build` directory.
+   - Run the application:
      ```bash
      ./grades
      ```
+   - On Windows, you can find the executable in the `release` or `debug` directory depending on your build configuration.
+
+## Additional Notes
+
+- Ensure that you have the correct version of Qt and associated build tools for your platform.
+- If you encounter issues, check the Qt and compiler documentation or seek assistance on community forums.
+
+Thank you for your interest in the Grades application!
