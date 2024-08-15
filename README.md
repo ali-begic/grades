@@ -1,2 +1,2 @@
-# grades
-Grades is an intuitive Qt C++ app for managing school grades. It offers a sleek UI to easily add, update, and organize grades and subjects, view reports, and export data. Ideal for students and educators, it simplifies grade management with powerful features.
+# Grades
+Grades is a powerful and user-friendly application designed for managing school grades efficiently. With a sleek and intuitive UI built using the Qt framework, it offers comprehensive features to handle all aspects of grade management. Users can easily add, update, and remove subjects and grades, view detailed reports, and export data as needed. The application ensures smooth operation with customizable options for handling grades and subjects, making it an essential tool for students and educators alike.
