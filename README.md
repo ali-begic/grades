@@ -51,36 +51,6 @@ To build and run the Grades application from source, follow these steps:
 
 - Ensure that you have the correct version of Qt and associated build tools for your platform.
 - If you encounter issues, check the Qt and compiler documentation or seek assistance on community forums.
+- If the application still does not work properly, try running it as an administrator.
 
 Thank you for your interest in the Grades application!
-
----
-
-**Deploying on Windows with `windeployqt`:**
-
-1. **Locate Your Executable:**
-   - Make sure your application has been built successfully, and you have the executable (e.g., `grades.exe`) in your build directory.
-
-2. **Open a Command Prompt:**
-   - Open a command prompt or terminal window.
-
-3. **Navigate to the Build Directory:**
-   - Use the `cd` command to navigate to the directory where your executable is located. For example:
-     ```
-     cd path/to/your/build/release
-     ```
-
-4. **Run `windeployqt`:**
-   - Execute the following command:
-     ```
-     windeployqt grades.exe
-     ```
-
-5. **Check the Deployed Files:**
-   - `windeployqt` will analyze your application and copy the necessary Qt libraries and plugins to the same directory as your executable.
-   - You'll find additional files like DLLs, plugins, and resources alongside your executable.
-
-6. **Test Your Deployed Application:**
-   - Run your application from the same directory to ensure that it works correctly with the bundled Qt dependencies.
-
-Remember that `windeployqt` automatically detects the required Qt modules and copies them. If you encounter any issues, refer to the official documentation for more details.
