@@ -20,9 +20,9 @@ To build and run the Grades application from source, follow these steps:
 
 2. **Install Qt Dependencies:**
    - Ensure you have the necessary Qt libraries, compilers, and build tools installed. Refer to the official Qt documentation for platform-specific instructions:
-     - Qt Documentation for Windows
-     - Qt Documentation for macOS
-     - Qt Documentation for Linux
+     - Qt Documentation for Windows [Qt Documentation for Windows](https://doc.qt.io/qt-5/windows-deployment.html)
+     - Qt Documentation for macOS [Qt Documentation for macOS](https://doc.qt.io/qt-5/macos-deployment.html)
+     - Qt Documentation for Linux [Qt Documentation for Linux](https://doc.qt.io/qt-5/linux-deployment.html)
 
 3. **Configure and Build:**
    - Create a build directory and navigate into it:
