@@ -9,7 +9,7 @@ Grades is a powerful and user-friendly application designed for managing school 
    - Open your terminal or command prompt and navigate to the directory where you want to clone your repository.
    - Run the following command to clone your repository:
      ```bash
-     git clone [<repository_url>](https://github.com/ali-begic/grades)
+     git clone https://github.com/ali-begic/grades
      ```
 
 2. **Install Qt Dependencies:**
