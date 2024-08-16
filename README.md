@@ -1,12 +1,12 @@
 # Grades
 
-Grades is a powerful and user-friendly cross-platform application designed for managing school grades efficiently. With a sleek and intuitive UI built using the Qt framework, it offers comprehensive features to handle all aspects of grade management. Users can easily add, update, and remove subjects and grades, view detailed reports, and export data as needed. The application ensures smooth operation with customizable options for handling grades and subjects, making it an essential tool for students and educators alike.
+**Grades** is a powerful and user-friendly cross-platform application designed for managing school grades efficiently. With a sleek and intuitive UI built using the Qt framework, it offers comprehensive features to handle all aspects of grade management. Users can easily add, update, and remove subjects and grades, view detailed reports, and export data as needed. The application ensures smooth operation with customizable options for handling grades and subjects, making it an essential tool for students and educators alike.
 
 ![grades-capture](https://github.com/user-attachments/assets/910d9ceb-5489-49a1-a1a8-cdfc7555a3aa)
 
 ## Building the Qt Application from Source
 
-To build and run the Grades application from source, it would be best solution to open the application in [Qt Creator](https://www.qt.io/), then compile it to your liking. But if you want to do it manually, here are the steps you need to follow: 
+To build and run the **Grades** application from source, it would be best solution to open the application in [Qt Creator](https://www.qt.io/), then compile it to your liking. But if you want to do it manually, here are the steps you need to follow: 
 
 1. **Clone the Repository:**
    - Ensure you have Git installed on your system.
@@ -58,10 +58,18 @@ To build and run the Grades application from source, it would be best solution t
      ```
    - On Windows, you can find the executable in the release or debug directory depending on your build configuration.
 
+## Contributing
+
+Contributions are welcome! If you find a bug, have a feature request, or want to improve the code, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the Apache-2.0 license - see the [LICENSE](LICENSE) file for details.
+
 ## Additional Notes
 
 - Ensure that you have the correct version of Qt and associated build tools for your platform.
 - If you encounter issues, check the Qt and compiler documentation or seek assistance on community forums.
 - If the application still does not work properly, try running it as an administrator.
 
-Thank you for your interest in the Grades application!
+Thank you for your interest in the **Grades** application!
