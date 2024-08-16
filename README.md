@@ -2,7 +2,7 @@
 
 Grades is a powerful and user-friendly cross-platform application designed for managing school grades efficiently. With a sleek and intuitive UI built using the Qt framework, it offers comprehensive features to handle all aspects of grade management. Users can easily add, update, and remove subjects and grades, view detailed reports, and export data as needed. The application ensures smooth operation with customizable options for handling grades and subjects, making it an essential tool for students and educators alike.
 
-![grades-capture](https://github.com/user-attachments/assets/64f41fc1-6fd4-4763-b5a4-4d70ee018296)
+![grades-capture](https://github.com/user-attachments/assets/910d9ceb-5489-49a1-a1a8-cdfc7555a3aa)
 
 ## Building the Qt Application from Source
 
