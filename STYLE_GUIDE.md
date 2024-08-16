@@ -1,6 +1,6 @@
 # Style Guide for Grades
 
-This document outlines the coding style and conventions to follow for the Grades project. Consistent code style helps improve readability and maintainability.
+This document outlines the coding style and conventions to follow for the **Grades** project. Consistent code style helps improve readability and maintainability.
 
 ## General Guidelines
 
