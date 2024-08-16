@@ -34,9 +34,21 @@ To build and run the Grades application from source, follow these steps:
      ```
      qmake ../src/grades.pro
      ```
-   - Compile the application using `nmake` for MSVC (or `mingw32-make` for MinGW):
+   - On Windows with MSVC:
      ```
      nmake
+     ```
+   - On Windows with MinGW:
+     ```
+     mingw32-make
+     ```
+   - On Windows with MinGW:
+     ```
+     mingw32-make
+     ```
+   - On macOS and Linux:
+     ```
+     make
      ```
 
 4. **Run Your Application:**
