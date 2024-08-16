@@ -4,6 +4,38 @@
 
 ![grades-capture](https://github.com/user-attachments/assets/910d9ceb-5489-49a1-a1a8-cdfc7555a3aa)
 
+## Features of the Grades Qt Application
+
+### Cross-Platform Compatibility
+- Works seamlessly across different operating systems, making it accessible to a wide range of users.
+
+### Sleek and Intuitive User Interface
+- Built with the Qt framework, the application offers a visually appealing and user-friendly interface, making navigation and usage simple and efficient.
+
+### Comprehensive Grade Management
+- **Add Subjects**: Easily add new subjects to the grade management system.
+- **Update Grades**: Modify existing grades for subjects with ease.
+- **Remove Subjects and Grades**: Quickly remove subjects or individual grades from the system.
+
+### Detailed Reports
+- **View Grades**: Access detailed views of all grades associated with each subject.
+- **Grade Summary**: Get an overview of the average grades, along with a "Prolazna ocjena" (passing grade) that corresponds to the average.
+
+### Data Exporting
+- **Export Reports**: Export grade reports to various formats or locations, making it easy to share or back up data.
+
+### Keyboard Shortcuts
+- Use keyboard shortcuts to enhance productivity, such as connecting specific keys to frequently used functions.
+
+### Real-Time Updates
+- Immediate reflection of changes in the UI when grades or subjects are added, updated, or removed.
+
+### Error Handling and Validation
+- **Empty Input Validation**: Prevent errors by validating inputs, ensuring that no empty fields are submitted.
+- **Confirmation Dialogs**: Provide confirmation prompts before performing irreversible actions like deleting subjects or grades.
+
+These features make the **Grades** a robust tool for efficiently managing school grades, tailored to the needs of students and educators.
+
 ## Building the Qt Application from Source
 
 To build and run the **Grades** application from source, it would be best solution to open the application in [Qt Creator](https://www.qt.io/), then compile it to your liking. But if you want to do it manually, here are the steps you need to follow: 
