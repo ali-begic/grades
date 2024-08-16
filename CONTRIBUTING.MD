@@ -1,6 +1,6 @@
 # Contributing to Grades
 
-Thank you for considering contributing to the Grades application! Your contributions are vital for the growth and improvement of this project.
+Thank you for considering contributing to the **Grades** application! Your contributions are vital for the growth and improvement of this project.
 
 ## How to Contribute
 
