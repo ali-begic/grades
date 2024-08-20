@@ -90,6 +90,36 @@ To build and run the **Grades** application from source, it would be best soluti
      ```
    - On Windows, you can find the executable in the release or debug directory depending on your build configuration.
 
+## Using `windeployqt` for Windows Deployment
+
+To deploy the **Grades** application on Windows, you can use the `windeployqt` tool. This tool automatically copies the necessary Qt runtime files (DLLs, plugins, etc.) to your application's deployment folder, making it easier to distribute the application.
+
+### Steps to Use `windeployqt`:
+
+1. **Build Your Application:**
+   - Ensure that your application is fully built using the steps above.
+
+2. **Open the Correct Command Prompt:**
+   - Open the "Developer Command Prompt for VS 2022" or the "Qt MinGW" command prompt, depending on the compiler you used.
+
+3. **Navigate to the Build Directory:**
+   - Use the command prompt to navigate to the directory where your application’s executable is located:
+     ```bash
+     cd ../grades/build/release
+     ```
+
+4. **Run `windeployqt`:**
+   - Run the following command to deploy your application:
+     ```bash
+     windeployqt grades.exe
+     ```
+
+5. **Test the Deployed Application:**
+   - After running `windeployqt`, test the application by running the executable in its deployment directory to ensure all dependencies are correctly deployed.
+
+6. **Distribute the Application:**
+   - You can now package the deployed files (including the executable and all copied DLLs and plugins) into a ZIP file, installer, or other distribution formats for distribution.
+
 ## Contributing
 
 Contributions are welcome! If you find a bug, have a feature request, or want to improve the code, feel free to open an issue or submit a pull request.
