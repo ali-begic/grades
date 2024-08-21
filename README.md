@@ -84,11 +84,11 @@ To build and run the **Grades** application from source, it would be best soluti
 
 4. **Run Your Application:**
    - After a successful build, the executable will be located in the build directory.
+   - On Windows, you can find the executable in the release or debug directory depending on your build configuration.
    - Run the application:
      ```
      ./grades
      ```
-   - On Windows, you can find the executable in the release or debug directory depending on your build configuration.
 
 ## Using `windeployqt` for Windows Deployment
 
