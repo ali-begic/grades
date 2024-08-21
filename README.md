@@ -38,7 +38,7 @@ These features make the **Grades** a robust tool for efficiently managing school
 
 ## Building the Qt Application from Source
 
-To build and run the **Grades** application from source, it would be best solution to open the application in [Qt Creator](https://www.qt.io/), then compile it to your liking. But if you want to do it manually, here are the steps you need to follow: 
+To build and run the **Grades** application from source, the best solution would be to open the application in [Qt Creator](https://www.qt.io/), then compile it to your liking. But if you want to do it manually, here are the steps you need to follow: 
 
 1. **Clone the Repository:**
    - Ensure you have Git installed on your system.
@@ -105,7 +105,7 @@ To deploy the **Grades** application on Windows, you can use the `windeployqt` t
 3. **Navigate to the Build Directory:**
    - Use the command prompt to navigate to the directory where your application’s executable is located:
      ```bash
-     cd ../grades/build/release
+     cd .../grades/build/release
      ```
 
 4. **Run `windeployqt`:**
