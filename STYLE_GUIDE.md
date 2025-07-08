@@ -25,8 +25,11 @@ This document outlines the coding style and conventions to follow for the **Grad
   }
 
   // Incorrect
-  if (condition) {
+  if (condition)
+  {
   // Code
-  } else {
+  }
+  else
+  {
   // Code
   }
